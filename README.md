@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 # Ejemplo  <br>
 ## Titulo 2
 
