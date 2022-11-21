@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricipal</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <BR>
+        <H2>INGRESO DE DATOS</H2>
+        <form name="formData">
+            <table>
+                <tr>
+                    <td>Codigo</td>
+                    <td><input type="text" name="inputId" id="inputId" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td>Producto</td>
+                    <td><input type="text" name="inputProducto" id="inputProducto" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td>Categoria</td>
+                    <td>
+                        <select name="" id="InputCategoria" onchange="GetSelect(this)">
+                            <option disabled selected>Selecione un Producto</option>
+                            <option value="Audio">Audio</option>
+                            <option value="Discos Duros">Discos Duros</option>
+                            <option value="Memorias USB">Memorias USB</option>
+                            <option value="Monitor">Monitor</option>
+                            <option value="Redes">Redes</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                <td><input type="text" name="inputPrecio" id="inputPrecio"  autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td>Existencia</td>
+                    <td><input type="text" name ="inputExistencia" id="inputExistencia"  autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td><button type="reset">Reset</button></td>
+                    <td><button onclick="SaveData()" type="button">Guardar</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onclick="ResList()">Resetear lista</button></td>
+                </tr>
+            </table>
+        </form>
+        <td>Filtrado</td>
+            <table>
+                <tr>
+                    <td>Filtrado por tecla</td>
+                    <td colspan="2"><a href="portecla.html">ir a la navegacion</a></td>
+                </tr>
+                <tr>
+                    <td>Filtrado por seleccion</td>
+                    <td><a href="filtroselect.html">ir a la navegacion</a></td>
+                </tr>
+            </table>
+        <div id="viewtable"></div>
+        <Script src="JS/biblio.js"></Script>
+        <br>
+    </div>
+</body>
+</html>

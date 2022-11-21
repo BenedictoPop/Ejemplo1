@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccion de datos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <h1>SELECCION DE DATOS</h1>
+        <form name="">
+            <table>
+                <tr>
+                    <td>Filtrado por Seleccion</td>
+                    <td>
+                        <select name="inputSelect" id="inputSelect" onchange="petSelect(this)">
+                            <option disabled selected>Selecione un Producto</option>
+                            <option value="Audio">Audio</option>
+                            <option value="Discos Duros">Discos Duros</option>
+                            <option value="Memorias USB">Memorias USB</option>
+                            <option value="Monitor">Monitor</option>
+                            <option value="Redes">Redes</option>
+                            <option value="0">Todos los datos</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+               
+            </table>
+        </form>
+        <div id="viewtable"></div>
+        <br>
+        <script src="js/biblio.js"></script>
+    </div>
+</body>
+</html>

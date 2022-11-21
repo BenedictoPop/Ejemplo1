@@ -1,0 +1,45 @@
+table,tr,td,th{
+    margin: 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color:cyan;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background-color:violet;
+}
+
+a{
+    background-color:teal;    
+    color: chartreuse;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin: 30px;
+    width: 70%;
+    height: 400px auto;
+    background-color: white;
+    border: 20px;
+    text-align: center;
+    border: 10px;
+}
+
+h1{
+    background-color: chartreuse;
+    color: blueviolet;
+}
+
+h4{
+    background-color: orange;
+    color: blue;
+}
+
+h2{
+    color: red;
+    background-color: darkorange;
+}
