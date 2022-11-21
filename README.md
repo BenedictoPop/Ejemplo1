@@ -1,5 +1,5 @@
 # Ejemplo  <br>
-## Titulo 2
+## Datos personles
 
 Nombre: Benedicto Pop Cucul  Clave:16
 =======
